@@ -30,7 +30,7 @@
      Fragment
      Launcher Shortcuts
      Loader
-     `Menu`
+     //Menu
      Notification
      Print
      Search
@@ -103,13 +103,13 @@
 <h4>Security</h4>
      KeyStore
 <h4>Text</h4>
-     `Linkify`
+     //Linkify
      LogTextBox
-     `Marquee`
+     //Marquee
 <h4>Views</h4>
      Animation
      Auto Complete
-     `Buttons`
+     //Buttons
      Chronometer
      Controls
      Custom
