@@ -105,7 +105,7 @@
 <h4>Text</h4>
      Linkify-----------------how to make it red?
      LogTextBox
-     Marquee
+     Marquee-----------------how to make it red?
 <h4>Views</h4>
      Animation
      Auto Complete
