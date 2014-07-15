@@ -30,7 +30,7 @@
      Fragment
      Launcher Shortcuts
      Loader
-     Menu-----------------how to make it red?
+     `Menu`
      Notification
      Print
      Search
@@ -103,13 +103,13 @@
 <h4>Security</h4>
      KeyStore
 <h4>Text</h4>
-     Linkify-----------------how to make it red?
+     `Linkify`
      LogTextBox
-     Marquee-----------------how to make it red?
+     `Marquee`
 <h4>Views</h4>
      Animation
      Auto Complete
-     Buttons------------------how to make it red?
+     `Buttons`
      Chronometer
      Controls
      Custom
