@@ -67,13 +67,6 @@
 
         <!-- Activity Samples -->
 
-        <activity android:name=".app.HelloWorld" android:label="@string/activity_hello_world">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-
         <activity android:name=".app.DialogActivity"
                 android:label="@string/activity_dialog"
                 android:theme="@android:style/Theme.Holo.Dialog">
