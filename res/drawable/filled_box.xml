@@ -13,13 +13,23 @@
 ** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
 ** See the License for the specific language governing permissions and 
 ** limitations under the License.
-*/
+*/
 -->
 
-<shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="#f0600000"/>
-    <stroke android:width="3dp" color="#ffff8080"/>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <solid android:color="#f0600000" />
+
+    <stroke
+        android:width="3dp"
+        color="#ffff8080" />
+
     <corners android:radius="3dp" />
-    <padding android:left="10dp" android:top="10dp"
-        android:right="10dp" android:bottom="10dp" />
+
+    <padding
+        android:bottom="10dp"
+        android:left="10dp"
+        android:right="10dp"
+        android:top="10dp" />
+
 </shape>
