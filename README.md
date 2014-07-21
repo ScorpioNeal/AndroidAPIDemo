@@ -127,7 +127,7 @@
      Layout Animation
      Layouts
      Lists
-     Popup Menu
+     //Popup Menu
      Progress Bar
      Radio Group
      Rating Bar
@@ -142,6 +142,6 @@
      System UI Visibility
      Tabs
      TextClock     
-     TextSwitcher
+     //TextSwitcher
      //Visibility
      WebView

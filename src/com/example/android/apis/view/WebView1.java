@@ -23,9 +23,6 @@ import android.webkit.WebView;
 import com.example.android.apis.R;
 
 
-/**
- * Sample creating 10 webviews.
- */
 public class WebView1 extends Activity {
     
     @Override
