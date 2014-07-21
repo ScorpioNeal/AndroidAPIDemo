@@ -135,7 +135,7 @@
      Scrollbars
      Search View
      Secure View
-     Seek Bar
+     //Seek Bar
      Spinner
      Splitting Touches across Views
      Switches
