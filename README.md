@@ -128,7 +128,7 @@
      Layouts
      Lists
      //Popup Menu
-     Progress Bar
+     //Progress Bar
      Radio Group
      Rating Bar
      Rotating Button
@@ -144,4 +144,4 @@
      TextClock     
      //TextSwitcher
      //Visibility
-     WebView
+     //WebView
