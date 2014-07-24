@@ -2301,15 +2301,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.RatingBar1"
-            android:label="Views/Rating Bar" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".view.Focus1"
             android:label="Views/Focus/1. Vertical" >
             <intent-filter>

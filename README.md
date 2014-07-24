@@ -130,7 +130,7 @@
      //Popup Menu
      //Progress Bar
      Radio Group
-     Rating Bar
+     //Rating Bar
      Rotating Button
      Scrollbars
      Search View
