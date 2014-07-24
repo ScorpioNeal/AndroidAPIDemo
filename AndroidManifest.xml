@@ -1481,15 +1481,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.RadioGroup1"
-            android:label="Views/Radio Group" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".view.ScrollView1"
             android:label="Views/Layouts/ScrollView/1. Short" >
             <intent-filter>
