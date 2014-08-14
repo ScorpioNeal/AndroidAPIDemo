@@ -2047,15 +2047,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.ImageButton1"
-            android:label="Views/ImageButton" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".view.Animation1"
             android:label="Views/Animation/Shake" >
             <intent-filter>
@@ -2356,15 +2347,6 @@
             android:name=".view.SearchViewFilterMode"
             android:label="Views/Search View/Filter"
             android:theme="@android:style/Theme.Holo" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".view.RotatingButton"
-            android:label="Views/Rotating Button" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
