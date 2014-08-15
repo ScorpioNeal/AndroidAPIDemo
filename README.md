@@ -136,7 +136,7 @@
      Search View
      Secure View
      //Seek Bar
-     Spinner
+     //Spinner
      Splitting Touches across Views
      Switches
      System UI Visibility

@@ -1973,15 +1973,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.Spinner1"
-            android:label="Views/Spinner" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".view.Grid1"
             android:label="Views/Grid/1. Icon Grid" >
             <intent-filter>
