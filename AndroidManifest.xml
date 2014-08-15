@@ -682,16 +682,6 @@
             </intent-filter>
         </activity>
 
-        <!-- Dialog samples -->
-        <activity
-            android:name=".app.AlertDialogSamples"
-            android:label="@string/activity_alert_dialog" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
 
         <!-- Search Samples -->
 

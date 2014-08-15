@@ -25,7 +25,7 @@
      Action Bar
      Activity
      Alarm
-     Alert Dialog
+     //Alert Dialog
      Device Admin
      Fragment
      Launcher Shortcuts
