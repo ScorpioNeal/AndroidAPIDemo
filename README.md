@@ -117,7 +117,7 @@
      Drag and Drop
      Expandable Lists
      Focus
-     Gallery
+     //Gallery
      Game Controller Input
      //Grid
      Hover Events

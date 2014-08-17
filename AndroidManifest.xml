@@ -22,7 +22,7 @@
 
     <!--
          We will request access to the camera, saying we require a camera
-         of some sort but not one with autofocus capability.
+         of some sort but not one with autofocus capability.
     -->
     <uses-permission android:name="android.permission.CAMERA" />
 
@@ -39,7 +39,7 @@
 
         <!--
              This is how we can request a library but still allow the app
-             to be installed if it doesn't exist.
+             to be installed if it doesn't exist.
         -->
         <uses-library
             android:name="com.example.will.never.exist"
@@ -437,13 +437,13 @@
 
                 <!--
                      These are the interfaces supported by the service, which
-                     you can bind to.
+                     you can bind to.
                 -->
                 <action android:name="com.example.android.apis.app.IRemoteService" />
                 <action android:name="com.example.android.apis.app.ISecondary" />
                 <!--
                      This is an action code you can use to select the service
-                     without explicitly supplying the implementation class.
+                     without explicitly supplying the implementation class.
                 -->
                 <action android:name="com.example.android.apis.app.REMOTE_SERVICE" />
             </intent-filter>
@@ -650,7 +650,7 @@
              This is used to display a notification selected by the user
              from StatusBarNotifications.  Note the configuration here so
              that the activity layers on top of whatever the user is doing,
-             allowing them to press back to return.
+             allowing them to press back to return.
         -->
         <activity
             android:name=".app.NotificationDisplay"
@@ -681,7 +681,6 @@
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
-
 
         <!-- Search Samples -->
 
@@ -1921,24 +1920,6 @@
             android:name=".view.CustomView1"
             android:label="Views/Custom"
             android:theme="@android:style/Theme.Light" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".view.Gallery1"
-            android:label="Views/Gallery/1. Photos" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".view.Gallery2"
-            android:label="Views/Gallery/2. People" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
