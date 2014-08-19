@@ -7,3 +7,4 @@
 		<view1 baseline=1
 			<view2 baseline=2>>
 		即最后设为baseline的是view2的第3个控件
+    *

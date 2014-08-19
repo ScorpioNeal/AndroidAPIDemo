@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2011 The Android Open Source Project
+<!--
+     Copyright (C) 2011 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,74 +15,53 @@
      limitations under the License.
 -->
 
-<GridLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-
-        android:useDefaultMargins="true"
-        android:alignmentMode="alignBounds"
-        android:rowOrderPreserved="false"
-
-        android:columnCount="4"
-        >
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alignmentMode="alignBounds"
+    android:columnCount="4"
+    android:rowOrderPreserved="false"
+    android:useDefaultMargins="true" >
 
     <TextView
-            android:text="Email setup"
-            android:textSize="32dip"
-
-            android:layout_columnSpan="4"
-            android:layout_gravity="center_horizontal"
-            />
+        android:layout_columnSpan="4"
+        android:layout_gravity="center_horizontal"
+        android:text="Email setup"
+        android:textSize="32dip" />
 
     <TextView
-            android:text="You can configure email in just a few steps:"
-            android:textSize="16dip"
-
-            android:layout_columnSpan="4"
-            android:layout_gravity="left"
-            />
+        android:layout_columnSpan="4"
+        android:layout_gravity="left"
+        android:text="You can configure email in just a few steps:"
+        android:textSize="16dip" />
 
     <TextView
-            android:text="Email address:"
+        android:layout_gravity="right"
+        android:text="Email address:" />
 
-            android:layout_gravity="right"
-            />
-
-    <EditText
-            android:ems="10"
-            />
+    <EditText android:ems="10" />
 
     <TextView
-            android:text="Password:"
+        android:layout_column="0"
+        android:layout_gravity="right"
+        android:text="Password:" />
 
-            android:layout_column="0"
-            android:layout_gravity="right"
-            />
-
-    <EditText
-            android:ems="8"
-            />
+    <EditText android:ems="8" />
 
     <Space
-            android:layout_row="2"
-            android:layout_rowSpan="3"
-            android:layout_column="2"
-            android:layout_gravity="fill"
-            />
+        android:layout_column="2"
+        android:layout_gravity="fill"
+        android:layout_row="2"
+        android:layout_rowSpan="3" />
 
     <Button
-            android:text="Manual setup"
-
-            android:layout_row="5"
-            android:layout_column="3"
-            />
+        android:layout_column="3"
+        android:layout_row="5"
+        android:text="Manual setup" />
 
     <Button
-            android:text="Next"
+        android:layout_column="3"
+        android:layout_gravity="fill_horizontal"
+        android:text="Next" />
 
-            android:layout_column="3"
-            android:layout_gravity="fill_horizontal"
-            />
 </GridLayout>
