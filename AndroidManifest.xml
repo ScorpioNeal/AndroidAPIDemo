@@ -1890,26 +1890,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.ExpandableList1"
-            android:label="Views/Expandable Lists/1. Custom Adapter" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".view.ExpandableList2"
             android:label="Views/Expandable Lists/2. Cursor (People)" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".view.ExpandableList3"
-            android:label="Views/Expandable Lists/3. Simple Adapter" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
