@@ -1413,24 +1413,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.TableLayout1"
-            android:label="Views/Layouts/TableLayout/01. Basic" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".view.TableLayout2"
-            android:label="Views/Layouts/TableLayout/02. Empty Cells" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".view.TableLayout3"
             android:label="Views/Layouts/TableLayout/03. Long Content" >
             <intent-filter>

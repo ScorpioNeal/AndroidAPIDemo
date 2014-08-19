@@ -7,4 +7,5 @@
 		<view1 baseline=1
 			<view2 baseline=2>>
 		即最后设为baseline的是view2的第3个控件
-    *
+    * TableLayout
+      主要是使用TableRow来作为每行的分割， 其实用LinearLayout也行
