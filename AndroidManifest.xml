@@ -1331,24 +1331,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.LinearLayout8"
-            android:label="Views/Layouts/LinearLayout/8. Gravity" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".view.LinearLayout10"
-            android:label="Views/Layouts/LinearLayout/10. Background Image" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".view.Tabs1"
             android:label="Views/Tabs/1. Content By Id" >
             <intent-filter>
@@ -1406,15 +1388,6 @@
         <activity
             android:name=".view.InternalSelectionScroll"
             android:label="Views/Layouts/ScrollView/3. Internal Selection" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".view.TableLayout3"
-            android:label="Views/Layouts/TableLayout/03. Long Content" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -1505,15 +1478,6 @@
         <activity
             android:name=".view.GridLayout0"
             android:label="Views/Layouts/GridLayout/0. Simple Form (Java)" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".view.GridLayout1"
-            android:label="Views/Layouts/GridLayout/1. Simple Form (XML)" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
