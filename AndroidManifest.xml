@@ -1809,33 +1809,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.AutoComplete1"
-            android:label="Views/Auto Complete/1. Screen Top" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".view.AutoComplete2"
-            android:label="Views/Auto Complete/2. Screen Bottom" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".view.AutoComplete3"
-            android:label="Views/Auto Complete/3. Scroll" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".view.AutoComplete4"
             android:label="Views/Auto Complete/4. Contacts" >
             <intent-filter>
@@ -1847,15 +1820,6 @@
         <activity
             android:name=".view.AutoComplete5"
             android:label="Views/Auto Complete/5. Contacts with Hint" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".view.AutoComplete6"
-            android:label="Views/Auto Complete/6. Multiple items" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
