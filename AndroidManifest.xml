@@ -99,16 +99,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".app.PersistentState"
-            android:label="@string/activity_persistent"
-            android:windowSoftInputMode="stateVisible|adjustResize" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".app.ActivityRecreate"
             android:enabled="@bool/atLeastHoneycomb"
             android:label="@string/activity_recreate" >
@@ -168,15 +158,6 @@
         <activity
             android:name=".app.SetWallpaperActivity"
             android:label="@string/activity_setwallpaper" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".app.ScreenOrientation"
-            android:label="@string/activity_screen_orientation" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -370,16 +351,6 @@
             android:enabled="@bool/atLeastHoneycomb" />
 
         <!-- Intent Samples -->
-
-        <activity
-            android:name=".app.Intents"
-            android:label="@string/activity_intents" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
         <activity
             android:name=".app.IntentActivityFlags"
             android:label="@string/activity_intent_activity_flags" >
