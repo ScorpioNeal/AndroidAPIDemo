@@ -1620,69 +1620,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.LayoutAnimation1"
-            android:label="Views/Layout Animation/1. Grid Fade" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".view.LayoutAnimation2"
-            android:label="Views/Layout Animation/2. List Cascade" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".view.LayoutAnimation3"
-            android:label="Views/Layout Animation/3. Reverse Order" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".view.LayoutAnimation4"
-            android:label="Views/Layout Animation/4. Randomize" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".view.LayoutAnimation5"
-            android:label="Views/Layout Animation/5. Grid Direction" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".view.LayoutAnimation6"
-            android:label="Views/Layout Animation/6. Wave Scale" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".view.LayoutAnimation7"
-            android:label="Views/Layout Animation/7. Nested Animations" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".view.AutoComplete4"
             android:label="Views/Auto Complete/4. Contacts" >
             <intent-filter>

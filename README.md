@@ -124,7 +124,7 @@
      //ImageButton
      //ImageSwitcher
      //ImageView
-     Layout Animation
+     //Layout Animation
      Layouts
      Lists
      //Popup Menu
