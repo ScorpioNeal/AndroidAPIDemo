@@ -22,7 +22,7 @@
 
     <!--
          We will request access to the camera, saying we require a camera
-         of some sort but not one with autofocus capability.
+         of some sort but not one with autofocus capability.
     -->
     <uses-permission android:name="android.permission.CAMERA" />
 
@@ -39,7 +39,7 @@
 
         <!--
              This is how we can request a library but still allow the app
-             to be installed if it doesn't exist.
+             to be installed if it doesn't exist.
         -->
         <uses-library
             android:name="com.example.will.never.exist"
@@ -437,13 +437,13 @@
 
                 <!--
                      These are the interfaces supported by the service, which
-                     you can bind to.
+                     you can bind to.
                 -->
                 <action android:name="com.example.android.apis.app.IRemoteService" />
                 <action android:name="com.example.android.apis.app.ISecondary" />
                 <!--
                      This is an action code you can use to select the service
-                     without explicitly supplying the implementation class.
+                     without explicitly supplying the implementation class.
                 -->
                 <action android:name="com.example.android.apis.app.REMOTE_SERVICE" />
             </intent-filter>
@@ -650,7 +650,7 @@
              This is used to display a notification selected by the user
              from StatusBarNotifications.  Note the configuration here so
              that the activity layers on top of whatever the user is doing,
-             allowing them to press back to return.
+             allowing them to press back to return.
         -->
         <activity
             android:name=".app.NotificationDisplay"
@@ -1320,16 +1320,6 @@
         <!-- ************************************* -->
         <!-- VIEW/WIDGET PACKAGE SAMPLES -->
         <!-- ************************************* -->
-
-        <activity
-            android:name=".view.ChronometerDemo"
-            android:label="Views/Chronometer" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
         <activity
             android:name=".view.Tabs1"
             android:label="Views/Tabs/1. Content By Id" >
@@ -1740,68 +1730,6 @@
         <activity
             android:name=".view.LayoutAnimation7"
             android:label="Views/Layout Animation/7. Nested Animations" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".view.Controls1"
-            android:label="Views/Controls/1. Light Theme"
-            android:theme="@android:style/Theme.Light" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".view.Controls2"
-            android:label="Views/Controls/2. Dark Theme"
-            android:theme="@android:style/Theme" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".view.Controls3"
-            android:enabled="@bool/atLeastHoneycomb"
-            android:label="Views/Controls/3. Holo Light Theme"
-            android:theme="@android:style/Theme.Holo.Light" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".view.Controls4"
-            android:enabled="@bool/atLeastHoneycomb"
-            android:label="Views/Controls/4. Holo Dark Theme"
-            android:theme="@android:style/Theme.Holo" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".view.Controls5"
-            android:label="Views/Controls/5. Custom Theme"
-            android:theme="@style/CustomTheme" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".view.Controls6"
-            android:label="Views/Controls/6. Holo or Old Theme"
-            android:theme="@style/ThemeHolo" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -2529,19 +2457,6 @@
             </intent-filter>
         </receiver>
 
-        <!-- ************************************* -->
-        <!-- OTHER SAMPLES -->
-        <!-- ************************************* -->
-
-        <activity
-            android:name=".text.LogTextBox1"
-            android:label="Text/LogTextBox" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
         <activity
             android:name=".nfc.ForegroundDispatch"
             android:label="NFC/ForegroundDispatch" >

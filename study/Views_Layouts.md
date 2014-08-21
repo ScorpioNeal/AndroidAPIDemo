@@ -24,3 +24,5 @@
 	* GridLayout
 	  android:columnCount="4" 设置列数
 	  android:layout_columnSpan 表示该组件在列数上占了几列
+	  
+	  若要指定某控件显示在固定的行或列，只需设置该子控件的android:layout_row和android:layout_column属性即可，但是需要注意：android:layout_row=”0”表示从第一行开始，android:layout_column=”0”表示从第一列开始

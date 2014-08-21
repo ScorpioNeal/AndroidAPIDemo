@@ -19,7 +19,7 @@ package com.example.android.apis.app;
 // Need the following import to get access to the app resources, since this
 // class is in a sub-package.
 import com.example.android.apis.R;
-import com.example.android.apis.view.Controls1;
+import com.example.android.apis.view.CustomView1;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -49,7 +49,7 @@ public class Animation extends Activity {
     private OnClickListener mFadeListener = new OnClickListener() {
         public void onClick(View v) {
             // Request the next activity transition (here starting a new one).
-            startActivity(new Intent(Animation.this, Controls1.class));
+            startActivity(new Intent(Animation.this, CustomView1.class));
             // Supply a custom animation.  This one will just fade the new
             // activity on top.  Note that we need to also supply an animation
             // (here just doing nothing for the same amount of time) for the
@@ -61,7 +61,7 @@ public class Animation extends Activity {
     private OnClickListener mZoomListener = new OnClickListener() {
         public void onClick(View v) {
             // Request the next activity transition (here starting a new one).
-            startActivity(new Intent(Animation.this, Controls1.class));
+            startActivity(new Intent(Animation.this, CustomView1.class));
             // This is a more complicated animation, involving transformations
             // on both this (exit) and the new (enter) activity.  Note how for
             // the duration of the animation we force the exiting activity
