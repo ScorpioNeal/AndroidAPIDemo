@@ -110,10 +110,10 @@
      Animation
      Auto Complete
      //Buttons
-     Chronometer
-     Controls
+     //Chronometer
+     //Controls
      Custom
-     Date Widgets
+     //Date Widgets
      Drag and Drop
      Expandable Lists
      Focus
@@ -123,7 +123,7 @@
      Hover Events
      //ImageButton
      //ImageSwitcher
-     ImageView
+     //ImageView
      Layout Animation
      Layouts
      Lists
@@ -138,10 +138,10 @@
      //Seek Bar
      //Spinner
      Splitting Touches across Views
-     Switches
+     //Switches
      System UI Visibility
-     Tabs
-     TextClock     
+     //Tabs
+     //TextClock     
      //TextSwitcher
      //Visibility
      //WebView
