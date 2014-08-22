@@ -1400,33 +1400,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.Animation1"
-            android:label="Views/Animation/Shake" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".view.Animation2"
-            android:label="Views/Animation/Push" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".view.Animation3"
-            android:label="Views/Animation/Interpolators" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".view.AutoComplete4"
             android:label="Views/Auto Complete/4. Contacts" >
             <intent-filter>
