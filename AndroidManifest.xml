@@ -1354,15 +1354,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.List1"
-            android:label="Views/Lists/01. Array" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".view.List2"
             android:label="Views/Lists/02. Cursor (People)" >
             <intent-filter>
@@ -1381,33 +1372,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.List4"
-            android:label="Views/Lists/04. ListAdapter" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".view.List5"
-            android:label="Views/Lists/05. Separators" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".view.List6"
-            android:label="Views/Lists/06. ListAdapter Collapsed" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".view.List7"
             android:label="Views/Lists/07. Cursor (Phones)" >
             <intent-filter>
@@ -1417,35 +1381,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.List8"
-            android:label="Views/Lists/08. Photos" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".view.List9"
             android:label="Views/Lists/09. Array (Overlay)" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".view.List10"
-            android:label="Views/Lists/10. Single choice list" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".view.List11"
-            android:label="Views/Lists/11. Multiple choice list" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
