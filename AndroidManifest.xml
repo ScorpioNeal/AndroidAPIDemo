@@ -37,10 +37,6 @@
         android:icon="@drawable/app_sample_code"
         android:label="@string/activity_sample_code" >
 
-        <!--
-             This is how we can request a library but still allow the app
-             to be installed if it doesn't exist.
-        -->
         <uses-library
             android:name="com.example.will.never.exist"
             android:required="false" />
@@ -70,16 +66,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".app.WallpaperActivity"
-            android:label="@string/activity_wallpaper"
-            android:theme="@style/Theme.Wallpaper" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".app.SoftInputModes"
             android:label="@string/soft_input_modes" >
             <intent-filter>
@@ -91,19 +77,6 @@
         <activity
             android:name=".app.SendResult"
             android:theme="@style/ThemeDialogWhenLarge" >
-        </activity>
-        <activity
-            android:name=".app.RedirectEnter"
-            android:label="@string/activity_redirect" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".app.RedirectMain" >
-        </activity>
-        <activity android:name=".app.RedirectGetter" >
         </activity>
         <activity
             android:name=".app.ReorderOnLaunch"
