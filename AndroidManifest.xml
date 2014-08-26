@@ -507,45 +507,7 @@
             </intent-filter>
         </activity>
 
-        <!-- Notifications samples -->
 
-        <activity
-            android:name=".app.NotifyWithText"
-            android:label="App/Notification/NotifyWithText" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".app.IncomingMessage"
-            android:label="App/Notification/IncomingMessage" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".app.IncomingMessageView"
-            android:label="App/Notification/IncomingMessageView" >
-        </activity>
-        <activity
-            android:name=".app.IncomingMessageInterstitial"
-            android:excludeFromRecents="true"
-            android:label="You have messages"
-            android:launchMode="singleTask"
-            android:taskAffinity=""
-            android:theme="@style/ThemeHoloDialog" >
-        </activity>
-
-        <!--
-             This is used to display a notification selected by the user
-             from StatusBarNotifications.  Note the configuration here so
-             that the activity layers on top of whatever the user is doing,
-             allowing them to press back to return.
-        -->
         <activity
             android:name=".app.NotificationDisplay"
             android:excludeFromRecents="true"

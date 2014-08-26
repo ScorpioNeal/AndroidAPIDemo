@@ -158,15 +158,8 @@ public class StatusBarNotifications extends Activity {
     
 
     private PendingIntent makeDefaultIntent() {
-        // A typical convention for notifications is to launch the user deeply
-        // into an application representing the data in the notification; to
-        // accomplish this, we can build an array of intents to insert the back
-        // stack stack history above the item being displayed.
         Intent[] intents = new Intent[4];
 
-        // First: root activity of ApiDemos.
-        // This is a convenient way to make the proper Intent to launch and
-        // reset an application's task.
         intents[0] = Intent.makeRestartActivityTask(new ComponentName(this,
                 com.example.android.apis.ApiDemos.class));
 
