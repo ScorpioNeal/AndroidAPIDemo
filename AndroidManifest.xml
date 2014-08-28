@@ -73,17 +73,7 @@
             android:name=".app.SendResult"
             android:theme="@style/ThemeDialogWhenLarge" >
         </activity>
-        <activity
-            android:name=".app.SetWallpaperActivity"
-            android:label="@string/activity_setwallpaper" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-
-        <!-- Fragment Samples -->
 
         <activity
             android:name=".app.FragmentAlertDialog"
@@ -686,18 +676,6 @@
         <activity
             android:name=".app.VoiceRecognition"
             android:label="@string/voice_recognition" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-
-        <!-- Text-To-Speech Samples -->
-
-        <activity
-            android:name=".app.TextToSpeechActivity"
-            android:label="@string/text_to_speech" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
