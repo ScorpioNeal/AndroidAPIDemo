@@ -88,7 +88,7 @@
 <h4>Media</h4>
      AudioFx
      MediaPlayer
-     VideoView
+     //VideoView
 <h4>NFC</h4>
      ForegroundDispatch
      ForegroundNdefPush
