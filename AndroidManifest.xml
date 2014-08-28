@@ -1341,44 +1341,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.Focus1"
-            android:label="Views/Focus/1. Vertical" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".view.Focus2"
-            android:label="Views/Focus/2. Horizontal" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".view.Focus3"
-            android:label="Views/Focus/3. Circular" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".view.InternalSelectionFocus"
             android:label="Views/Focus/4. Internal Selection" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".view.Focus5"
-            android:label="Views/Focus/5. Sequential (Tab Order)" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
