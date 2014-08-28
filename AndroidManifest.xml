@@ -20,10 +20,6 @@
         android:minSdkVersion="14"
         android:targetSdkVersion="14" />
 
-    <!--
-         We will request access to the camera, saying we require a camera
-         of some sort but not one with autofocus capability.
-    -->
     <uses-permission android:name="android.permission.CAMERA" />
 
     <uses-feature android:name="android.hardware.camera" />
@@ -36,7 +32,6 @@
         android:hardwareAccelerated="true"
         android:icon="@drawable/app_sample_code"
         android:label="@string/activity_sample_code" >
-
         <uses-library
             android:name="com.example.will.never.exist"
             android:required="false" />
@@ -331,13 +326,13 @@
 
                 <!--
                      These are the interfaces supported by the service, which
-                     you can bind to.
+                     you can bind to.
                 -->
                 <action android:name="com.example.android.apis.app.IRemoteService" />
                 <action android:name="com.example.android.apis.app.ISecondary" />
                 <!--
                      This is an action code you can use to select the service
-                     without explicitly supplying the implementation class.
+                     without explicitly supplying the implementation class.
                 -->
                 <action android:name="com.example.android.apis.app.REMOTE_SERVICE" />
             </intent-filter>
@@ -506,8 +501,6 @@
                 <!-- category android:name="android.intent.category.SAMPLE_CODE" / -->
             </intent-filter>
         </activity>
-
-
         <activity
             android:name=".app.NotificationDisplay"
             android:excludeFromRecents="true"
@@ -1951,15 +1944,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".media.VideoViewDemo"
-            android:label="Media/VideoView" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".media.AudioFxDemo"
             android:label="Media/AudioFx" >
             <intent-filter>
@@ -1968,10 +1952,6 @@
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
-
-        <!-- ************************************* -->
-        <!-- APPWIDGET PACKAGE SAMPLES -->
-        <!-- ************************************* -->
 
         <receiver android:name=".appwidget.ExampleAppWidgetProvider" >
             <meta-data
