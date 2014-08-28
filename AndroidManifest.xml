@@ -1268,15 +1268,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.GridLayout0"
-            android:label="Views/Layouts/GridLayout/0. Simple Form (Java)" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".view.List2"
             android:label="Views/Lists/02. Cursor (People)" >
             <intent-filter>
