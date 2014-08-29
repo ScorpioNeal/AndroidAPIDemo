@@ -38,25 +38,11 @@ public class LabelView extends View {
     private String mText;
     private int mAscent;
 
-    /**
-     * Constructor. This version is only needed if you will be instantiating the
-     * object manually (not from a layout XML file).
-     * 
-     * @param context
-     */
     public LabelView(Context context) {
         super(context);
         initLabelView();
     }
 
-    /**
-     * Construct object, initializing with any attributes we understand from a
-     * layout file. These attributes are defined in
-     * SDK/assets/res/any/classes.xml.
-     * 
-     * @see android.view.View#View(android.content.Context,
-     *      android.util.AttributeSet)
-     */
     public LabelView(Context context, AttributeSet attrs) {
         super(context, attrs);
         initLabelView();
@@ -133,7 +119,7 @@ public class LabelView extends View {
      */
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-        setMeasuredDimension(measureWidth(widthMeasureSpec),
+        setMeasuredDimension(MeasureSpec.getSize(widthMeasureSpec),
                 measureHeight(heightMeasureSpec));
     }
 
@@ -175,23 +161,11 @@ public class LabelView extends View {
      */
     private int measureHeight(int measureSpec) {
         int result = 0;
-        int specMode = MeasureSpec.getMode(measureSpec);
-        int specSize = MeasureSpec.getSize(measureSpec);
 
         mAscent = (int) mTextPaint.ascent();
-        if (specMode == MeasureSpec.EXACTLY) {
-            // We were told how big to be
-            result = specSize;
-        } else {
-            // Measure the text (beware: ascent is a negative number)
-            result = (int) (-mAscent + mTextPaint.descent()) + getPaddingTop()
-                    + getPaddingBottom();
-            if (specMode == MeasureSpec.AT_MOST) {
-                // Respect AT_MOST value if that was what is called for by
-                // measureSpec
-                result = Math.min(result, specSize);
-            }
-        }
+        // Measure the text (beware: ascent is a negative number)
+        result = (int) (-mAscent + mTextPaint.descent()) + getPaddingTop()
+                + getPaddingBottom();
         return result;
     }
 

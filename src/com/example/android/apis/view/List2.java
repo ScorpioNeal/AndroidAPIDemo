@@ -29,6 +29,7 @@ import android.widget.SimpleCursorAdapter;
  */
 public class List2 extends ListActivity {
 
+    @SuppressWarnings("deprecation")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
