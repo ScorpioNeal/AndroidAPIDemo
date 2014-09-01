@@ -32,7 +32,7 @@
      Loader
      //Menu
      Notification
-     Print
+     //Print
      Search
      Service
      //Text-To-Speech
@@ -94,7 +94,7 @@
      ForegroundNdefPush
      TechFilter
 <h4>OS</h4>
-     Morse Code
+     //Morse Code
      Rotation Vector
      Sensors
      SMS Messaging
@@ -104,7 +104,7 @@
      KeyStore
 <h4>Text</h4>
      //Linkify
-     LogTextBox
+     //LogTextBox
      //Marquee
 <h4>Views</h4>
      Animation
@@ -116,7 +116,7 @@
      //Date Widgets
      Drag and Drop
      Expandable Lists
-     Focus
+     //Focus
      //Gallery
      Game Controller Input
      //Grid

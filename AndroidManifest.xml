@@ -943,19 +943,7 @@
             android:authorities="com.example.android.apis.content.FileProvider"
             android:enabled="@bool/atLeastHoneycombMR2" />
 
-        <!-- ************************************* -->
-        <!-- OS PACKAGE SAMPLES -->
-        <!-- ************************************* -->
 
-        <activity
-            android:name=".os.MorseCode"
-            android:label="OS/Morse Code" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
         <activity
             android:name=".os.Sensors"
             android:label="OS/Sensors" >
@@ -1149,15 +1137,6 @@
         <!-- ************************************* -->
 
         <activity
-            android:name=".view.InternalSelectionScroll"
-            android:label="Views/Layouts/ScrollView/3. Internal Selection" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".view.TableLayout4"
             android:label="Views/Layouts/TableLayout/04. Stretchable" >
             <intent-filter>
@@ -1286,15 +1265,6 @@
         <activity
             android:name=".view.AutoComplete5"
             android:label="Views/Auto Complete/5. Contacts with Hint" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".view.InternalSelectionFocus"
-            android:label="Views/Focus/4. Internal Selection" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
