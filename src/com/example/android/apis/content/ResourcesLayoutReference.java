@@ -26,8 +26,6 @@ public class ResourcesLayoutReference extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // This layout uses different configurations to adjust
-        // what is shown based on the smallest width that will occur.
         setContentView(R.layout.resources_layout_reference);
     }
 }

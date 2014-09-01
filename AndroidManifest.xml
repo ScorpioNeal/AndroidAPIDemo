@@ -868,16 +868,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".content.StyledText"
-            android:label="@string/activity_styled_text" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-                <category android:name="android.intent.category.EMBED" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".content.ResourcesLayoutReference"
             android:label="@string/activity_resources_layout_reference" >
             <intent-filter>
@@ -907,15 +897,6 @@
 
                 <category android:name="android.intent.category.SAMPLE_CODE" />
                 <category android:name="android.intent.category.EMBED" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".content.ResourcesSample"
-            android:label="@string/activity_resources" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
         <activity
