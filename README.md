@@ -120,7 +120,7 @@
      //Gallery
      Game Controller Input
      //Grid
-     Hover Events
+     //Hover Events
      //ImageButton
      //ImageSwitcher
      //ImageView

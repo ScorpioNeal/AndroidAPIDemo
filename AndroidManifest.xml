@@ -1348,15 +1348,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.Hover"
-            android:label="Views/Hover Events" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".view.OverscanActivity"
             android:label="Views/Full Screen Modes" >
             <intent-filter>
@@ -1366,9 +1357,6 @@
             </intent-filter>
         </activity>
 
-        <!-- ************************************* -->
-        <!-- GRAPHICS SAMPLES -->
-        <!-- ************************************* -->
 
         <activity
             android:name=".graphics.kube.Kube"
