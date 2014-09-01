@@ -133,11 +133,11 @@
      //Rating Bar
      //Rotating Button
      //Scrollbars
-     Search View
+     //Search View
      Secure View
      //Seek Bar
      //Spinner
-     Splitting Touches across Views
+     //Splitting Touches across Views
      //Switches
      System UI Visibility
      //Tabs
