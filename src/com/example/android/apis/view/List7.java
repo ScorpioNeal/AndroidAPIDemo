@@ -51,6 +51,7 @@ public class List7 extends ListActivity implements OnItemSelectedListener {
     private static final int COLUMN_PHONE_LABEL = 2;
     private static final int COLUMN_PHONE_NUMBER = 3;
 
+    @SuppressWarnings("deprecation")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

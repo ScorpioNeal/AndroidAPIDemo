@@ -42,6 +42,7 @@ public class List3 extends ListActivity {
         startManagingCursor(c);
 
         // Map Cursor columns to views defined in simple_list_item_2.xml
+        @SuppressWarnings("deprecation")
         SimpleCursorAdapter adapter = new SimpleCursorAdapter(this,
                 android.R.layout.simple_list_item_2, c,
                         new String[] {

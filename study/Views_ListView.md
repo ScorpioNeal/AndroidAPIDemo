@@ -127,5 +127,20 @@
 
 	  //设置选中某个
 	     getListView().setItemChecked(position, true);
+
+	* listview使用SimpleCursorAdapter
+		* 构造SimpleCursorAdapter
+		  ListAdapter adapter = new SimpleCursorAdapter(Context,
+                android.R.layout.simple_list_item_1,
+                // Give the cursor to the list adatper
+                Cursor,
+                // Map the NAME column in the people database to...
+                new String[] { Contacts.DISPLAY_NAME },
+                // The "text1" view defined in the XML template
+                new int[] { android.R.id.text1 });
+		* 其中Cursor为
+		  Cursor c = getContentResolver().query(Contacts.CONTENT_URI,
+                new String[] { Contacts._ID, Contacts.DISPLAY_NAME }, null,
+                null, null);
 	  
 	

@@ -1199,15 +1199,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.List2"
-            android:label="Views/Lists/02. Cursor (People)" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".view.List3"
             android:label="Views/Lists/03. Cursor (Phones)" >
             <intent-filter>
