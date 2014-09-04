@@ -15,11 +15,11 @@
      Default Layout Animations
      Events
      Hide-Show Animations
+     Layout Animations
      Loading     
      Multiple Properties
      Reversing
      Seeking
-     Simple Transitions
      View Flip
 <h4>App</h4>
      Action Bar
@@ -28,7 +28,7 @@
      //Alert Dialog
      Device Admin
      Fragment
-     Launcher Shortcuts
+     //Launcher Shortcuts
      Loader
      //Menu
      Notification
@@ -83,8 +83,6 @@
      UnicodeChart
      Vertices
      Xfermodes
-<h4>Hardware</h4>
-     Consumer IR
 <h4>Media</h4>
      AudioFx
      MediaPlayer
@@ -98,10 +96,7 @@
      Rotation Vector
      Sensors
      SMS Messaging
-     TriggerSensors
 <h4>Preference</h4>
-<h4>Security</h4>
-     KeyStore
 <h4>Text</h4>
      //Linkify
      //LogTextBox
@@ -112,11 +107,12 @@
      //Buttons
      //Chronometer
      //Controls
-     Custom
+     //Custom
      //Date Widgets
      Drag and Drop
      Expandable Lists
      //Focus
+     Full ScreenModes
      //Gallery
      Game Controller Input
      //Grid
@@ -139,7 +135,6 @@
      //Spinner
      //Splitting Touches across Views
      //Switches
-     System UI Visibility
      //Tabs
      //TextClock     
      //TextSwitcher
