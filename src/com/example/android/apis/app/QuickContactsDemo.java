@@ -51,18 +51,18 @@ public class QuickContactsDemo extends ListActivity {
     static final int SUMMARY_LOOKUP_KEY = 6;
     static final int SUMMARY_HAS_PHONE_COLUMN_INDEX = 7;
 
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         String select = "((" + Contacts.DISPLAY_NAME + " NOTNULL) AND ("
                 + Contacts.HAS_PHONE_NUMBER + "=1) AND ("
                 + Contacts.DISPLAY_NAME + " != '' ))";
-        Cursor c =
-                getContentResolver().query(Contacts.CONTENT_URI, CONTACTS_SUMMARY_PROJECTION, select,
-                null, Contacts.DISPLAY_NAME + " COLLATE LOCALIZED ASC");
+        Cursor c = getContentResolver().query(Contacts.CONTENT_URI,
+                CONTACTS_SUMMARY_PROJECTION, select, null,
+                Contacts.DISPLAY_NAME + " COLLATE LOCALIZED ASC");
         startManagingCursor(c);
-        ContactListItemAdapter adapter = new ContactListItemAdapter(this, R.layout.quick_contacts, c);
+        ContactListItemAdapter adapter = new ContactListItemAdapter(this,
+                R.layout.quick_contacts, c);
         setListAdapter(adapter);
 
     }
@@ -74,14 +74,17 @@ public class QuickContactsDemo extends ListActivity {
 
         @Override
         public void bindView(View view, Context context, Cursor cursor) {
-            final ContactListItemCache cache = (ContactListItemCache) view.getTag();
+            final ContactListItemCache cache = (ContactListItemCache) view
+                    .getTag();
             // Set the name
-            cursor.copyStringToBuffer(SUMMARY_NAME_COLUMN_INDEX, cache.nameBuffer);
+            cursor.copyStringToBuffer(SUMMARY_NAME_COLUMN_INDEX,
+                    cache.nameBuffer);
             int size = cache.nameBuffer.sizeCopied;
             cache.nameView.setText(cache.nameBuffer.data, 0, size);
             final long contactId = cursor.getLong(SUMMARY_ID_COLUMN_INDEX);
             final String lookupKey = cursor.getString(SUMMARY_LOOKUP_KEY);
-            cache.photoView.assignContactUri(Contacts.getLookupUri(contactId, lookupKey));
+            cache.photoView.assignContactUri(Contacts.getLookupUri(contactId,
+                    lookupKey));
         }
 
         @Override
